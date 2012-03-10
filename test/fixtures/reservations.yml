@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  book_id: 1
+  reserved_at: 2012-03-11
+  reserved_till: 2012-03-11
+
+two:
+  user_id: 1
+  book_id: 1
+  reserved_at: 2012-03-11
+  reserved_till: 2012-03-11

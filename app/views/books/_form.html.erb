@@ -1,0 +1,9 @@
+<%= simple_form_for @book do |f| %>
+  <%= f.error_notification %>
+    <%= f.input :title %>
+    <%= f.input :author %>
+    <%= f.input :year_published %>
+    <%= f.input :publishing_house %>
+    <%= f.input :language %>
+  <%= f.button :submit %>
+<%= end %>

@@ -1,0 +1,33 @@
+one:
+  
+    title: MyString
+  
+  
+    author: MyString
+  
+  
+    year_published: 1
+  
+  
+    publishing_house: MyString
+  
+  
+    language: MyString
+  
+
+two:
+  
+    title: MyString
+  
+  
+    author: MyString
+  
+  
+    year_published: 1
+  
+  
+    publishing_house: MyString
+  
+  
+    language: MyString
+  

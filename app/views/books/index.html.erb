@@ -1,0 +1,25 @@
+<% title "Books" %>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Year Published</th>
+    <th>Publishing House</th>
+    <th>Language</th>
+  </tr>
+  <% for book in @books %>
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.author %></td>
+      <td><%= book.year_published %></td>
+      <td><%= book.publishing_house %></td>
+      <td><%= book.language %></td>
+      <td><%= link_to "Show", book %></td>
+      <td><%= link_to "Edit", edit_book_path(book) %></td>
+      <td><%= link_to "Destroy", book, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Book", new_book_path %></p>
